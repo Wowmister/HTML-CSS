@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 3</title>
+		<style>
+		body{
+	    font-family: Arial;
+		}
+	section{
+    
+    margin: 0 auto;
+    background-color: #FFC0CB;
+    border:0;
+    border-radius: 15px;
+    padding:15px;
+	}
+	section article#meter{
+
+    float: left;
+	}
+	h1{
+	    margin: 5px 0 0 0;
+	    font-size: 30px;
+	    text-align: center;
+	}
+	h2{
+	    margin: 5px 0;
+	    font-size:16px;
+	    text-align: left;
+	}
+	section article#meter figure{
+	    margin: 0;
+	}
+	section article#meter figcaption{
+	    margin: 5px 0;
+	    font-size: 12px;
+	}
+	section article#meter meter{
+	    width: 115px;
+	}
+	section article#audio{
+	    width: 310px;
+	    margin: 0 10px;
+	    float: left;
+	}
+	section article#audio div{
+	    width: 296px;
+	    padding: 10px 2px 15px 2px;
+	    margin-bottom: 5px;
+	    background-color: black;
+	}
+	section article#audio div audio{
+	    width: 296px;
+	}
+	section article#video video {
+	    margin-left: -5px;
+	}
+		</style>
+</head>
+<body>
+	<div id="wrapper">
+
+		<section>
+        <h1>Profile</h1>
+        <article id="meter">
+            <h2>User: Kent</h2>
+            <figure>
+                <img src="E:\Tech\1. HTML.CSS\4 урок - Семантичен HTML, рамки, други тагове\Homework\Problem03-Kent-s-Profile-Resources\KentProfilePic.png">
+                <figcaption>Profile completed 60%</figcaption>
+                <meter value="0.6">60%</meter>
+            </figure>
+        </article>
+        <article id="audio">
+            <h2>Uploaded Audio Fails</h2>
+            <div class="active">
+                <audio controls="controls">
+                    <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mpeg">
+                </audio>
+            </div>
+            <audio controls="controls">
+                <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mpeg">
+            </audio>
+            <audio controls="controls">
+                <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mpeg">
+            </audio>
+            <audio controls="controls">
+                <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mpeg">
+            </audio>
+        </article>
+        <article id="video">
+            <h2>Uploaded Video Fails</h2>
+            <video width="300" height="164" controls="controls">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="audio/mp4">
+                <track src="" kind="subtitles" srclang="en" label="English">
+            </video>
+        </article>
+    </section>
+    </div>
+</body>
+</html>
+
